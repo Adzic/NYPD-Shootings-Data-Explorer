@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-data_path = "NYPD_Shooting_Incident_Data__Year_To_Date__20231125.csv"
+data_path = "https://github.com/Adzic/NYPD-Shootings-Data-Explorer/blob/main/NYPD_Shooting_Incident_Data__Year_To_Date__20231125.csv"
 df = pd.read_csv(data_path)
 
 # Function to preprocess data
